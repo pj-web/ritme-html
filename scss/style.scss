@@ -1,0 +1,690 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+h2, h3 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.site-logotype img {
+    max-height: 200px;
+}
+
+.headers span{
+	font-weight: 600;
+}
+.konsult{
+	margin: 7px 0px;
+}
+.speaker-main {
+width: 330px;
+}
+/* активируем слой затемнения и модальное окно */
+.speaker-main:target {
+    display: block;
+/* анимация и время задержки */
+    -webkit-animation: fade .6s;
+    -moz-animation: fade .6s;
+    animation: fade .6s;
+}
+.speaker-main select{ height:45px;border:2px solid #c6e1e9;border-radius:25px;background:#fff;font:14px/35px,sans-serif;color:grey;text-indent:14px;
+}
+.landkonsult{
+	padding: 5px 30px;
+}
+.text-konfigure{
+	margin: 0 35px;
+	align-content: center;
+}
+.txt-konfid{
+
+	display: inline-block;
+	text-align: center;
+
+}
+.btn-clculul{
+cursor: pointer;	
+}
+.speaker-main input{ width:100%;
+height:45px;
+border:2px solid #c6e1e9;
+border-radius:20px;
+background:#fff;font:14px/35px;color:grey;text-indent:14px;margin-top:11px;-webkit-appearance:none;-moz-appearance:none;
+appearance:none;
+}
+.speaker-main button{ width:100%;height:60px;border:0;border-radius:20px;background:#f78830;-webkit-box-shadow:0 0 19px 0 rgba(255,120,164,.5);box-shadow:0 0 19px 0 rgba(255,120,164,.5);font:20px/27px GothamPro-Bold,sans-serif;color:#fff;margin-top:22px}
+.speaker-main p{text-align:center;margin-top:20px;font-size:12px;color:#d1e8e5;
+}
+.speaker-main span{
+	font-weight: 600;
+	display: inline-block;
+	text-align: center;
+		color: #142f76;
+	font-size: 22px;
+}
+.konsult a{color:#fff; background-color:#f3e606;}
+.promo-reks a{
+	color: #f2f2f2;
+}
+.time-promo{
+	display: inline-block;
+	font-size: 22px;
+	background-color: #f78732;
+	padding: 7px 15px;
+	border-radius: 3px;
+}
+
+
+.forma-zakaza {
+	width: 90%;
+	margin: 10px 40px 10px 40px;
+	background: linear-gradient(180deg, #BCAEF8 0%, #6B6AB2 100%);
+	border-radius: 15px 10px 0;
+	border: 2px solid #9C282A;
+	padding: 10px 10px;
+	box-shadow: 0 0 43px rgba(0, 0, 0, .22);
+}
+.textfor{
+	margin: 10px;
+	text-align: center;
+	color: #eae5e5;
+	font-size: 12px;
+}
+.btn-clculul{
+cursor: pointer;
+}
+.forma-zakaza input[type="text"]{ width:100%;
+height:45px;
+border:2px solid #9C282A;
+border-radius:5px;
+background:#fff;font:14px/35px;color:grey;text-indent:14px;margin-top:11px;-webkit-appearance:none;-moz-appearance:none;
+appearance:none;
+}
+.forma-zakaza input[type="tel"]{ width:100%;
+height:45px;
+border:2px solid #9C282A;
+border-radius:5px;
+background:#fff;font:14px/35px;color:grey;text-indent:14px;margin-top:11px;-webkit-appearance:none;-moz-appearance:none;
+appearance:none;
+}
+.knopkaprov{
+	font-size: 12px;
+	line-height: 90%;
+	text-align: justify;
+	color: #fff;
+}
+.knopkaprov a{
+		color: #9fa2a0;
+}
+.forma-zakaza button{ width:70%;height:60px;border:0;border-radius:5px;background:linear-gradient(180deg, #DB7978 0%, #9C282A 100%);-webkit-box-shadow:0 0 19px 0 rgba(255,120,164,.5);box-shadow:0 0 19px 0 rgba(255,120,164,.5);font:20px/27px GothamPro-Bold,sans-serif;color:#fff;margin-top:22px;
+margin-bottom: 10px; color: #fff; font-weight: 700;
+position: relative;
+left: 50%;
+transform: translate(-50%, 0);
+}
+
+.forma-zakaza p{text-align:center;margin-top:20px;font-size:12px;color:#d1e8e5
+}
+.price-zakazat {
+	display: block;
+	width: 90%;
+	text-align: center;
+	margin: 10px 40px 10px 40px;
+	padding: 5px 15px 10px 5px;
+	border-radius: 0 10px 15px;
+	border: 2px solid;
+}
+.tektsena{
+	font-size: 24px;
+	font-weight:700;
+}
+.cenado{
+	color: #b70707;
+	font-weight: 700;
+	text-decoration: line-through;
+}
+
+.cell>p {
+display:none;
+}
+.table-responsive {
+line-height: 130%;}
+.entry-content table, .home-text table, .taxonomy-description table {
+margin: 0 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+div.quote {
+    padding: 40px 120px 40px 120px;
+    font-style: italic;
+    font-weight: 500;
+    position: relative;
+
+    &::before {
+        content: "";
+        background-image: url('https://ritme1.ru/wp-content/uploads/quotes.svg');
+        position: absolute;
+        top: 15px;
+        left: 50px;
+        width: 90px;
+        height: 90px;
+        opacity: 10%;
+
+    }
+}
+
+div.warning {
+    margin: 20px 60px 20px 60px;
+    padding: 30px 20px 30px 140px;
+    background-color: #fff;
+    font-weight: 600;
+    border: 2px solid #B11212;
+    border-radius: 5px;
+    position: relative;
+
+    &::before {
+        content: "";
+        background-image: url('https://ritme1.ru/wp-content/uploads/warning.svg');
+        position: absolute;
+        top: 3px;
+        left: 5px;
+        width: 120px;
+        height: 120px;
+
+    }
+}
+
+.how {
+    margin: 40px 0;
+}
+
+.how__fitness-progress, .how__day-stages {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+
+.how__day-stages-item {
+	font-size: 14px;
+    width: 31%;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.how__specifically {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.how__specifically-image {
+    // width: 50%;
+    
+}
+
+.how__specifically-list {
+    text-align: center;
+    ol {
+        margin: 0;
+        text-align: left;
+    }
+    li {
+        margin: 0;
+    }
+}
+
+.how__fitness-progress-item {
+	font-size: 14px;
+    width: 23%;
+    margin-left: 20px;
+}
+
+.results {
+    color: #fff;
+    background-color: #9C282A;
+	border-radius: 5px;
+    padding: 40px 40px;
+}
+
+.results h2 {
+		text-align: center;
+		
+	}
+
+.results__columns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px auto;
+}
+
+.results__image img {
+    border-radius: 3px;
+
+}
+
+.results__list {
+    li {
+        line-height: 2;
+    }
+}
+
+.price {
+    &__form {
+        // text-align: center;
+    }
+}
+
+.results__items {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.delivery {
+    margin: 60px 0;
+
+    &__columns {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 0 40px 0;
+    }
+
+    &__column {
+    }
+}
+
+.furmula {
+    &__image {
+        text-align: center;
+    }
+}
+
+.doctors {
+
+    &__items {
+    }
+
+    &__item {
+        background-color: #e4e4e4;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 3px;
+    }
+
+    &__avatar {
+        display: flex;
+        align-items: flex-end;
+
+        img {
+            border-radius: 50%;
+        }
+    }
+
+    &__name {
+        margin: 0 0 20px 40px;
+
+        h3 {
+            text-align: left;
+            margin: 0;
+        }
+    }
+
+    &__text {
+        margin: 10px;
+        padding: 20px 20px 20px 20px;
+        background-color: #fff;
+        border-radius: 3px;
+    }
+
+    &__form {
+    }
+}
+
+.nutritionist {
+
+    &__items {
+    }
+
+    &__item {
+        background-color: #e4e4e4;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 3px;
+    }
+
+    &__avatar {
+        display: flex;
+        align-items: flex-end;
+        img {
+
+            border-radius: 50%;
+        }
+    }
+
+    &__name {
+        margin: 0 0 20px 40px;
+
+        h3 {
+            text-align: left;
+            margin: 0;
+        }
+    }
+
+    &__text {
+        margin: 10px;
+        padding: 20px 20px 20px 20px;
+        background-color: #fff;
+        border-radius: 3px;
+    }
+}
+
+
+
+.faq {
+
+    &__items {
+    }
+
+    &__item {
+    }
+
+    &__question {
+        background-color: #fdc4c5;
+        padding: 20px 20px 20px 20px;
+        margin: 20px 120px 30px 20px;
+        border-radius: 20px;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 40px;
+            left: 10px;
+            width: 0;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 40px solid transparent;
+            border-top: 50px solid #fdc4c5;
+
+        }
+    }
+
+    &__answer {
+        min-height: 80px;
+        background-color: #c2f86c;
+        padding: 20px 20px 20px 20px;
+        margin: 20px 20px 30px 120px;
+        border-radius: 20px;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 110px;
+            right: 10px;
+            width: 0;
+            height: 0;
+            border-left: 40px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 50px solid #c2f86c;
+
+        }
+    }
+}
+
+.days-stages {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.days-stages__item {
+    width: 33%;
+}
+
+.fitness-progress {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.results__inner {
+    
+}
+
+.branches, .reviews {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.reviews {
+
+    &__inner {
+        margin: 10px;
+        // box-shadow: 5px 5px 10px 5px rgba($color: #000000, $alpha: .1);
+    }
+
+    &__item {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 5px 5px 10px 5px rgba($color: #000000, $alpha: .1);
+    }
+
+    &__avatar {
+        width: 18%;
+        margin: 10px 0 0 10px;
+    }
+
+    &__content {
+        width: 77%;
+        margin-left: 10px;
+    }
+
+    &__name {
+        font-weight: 700;
+        margin: 10px 0;
+    }
+
+    &__text {
+    }
+
+    &__answer {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 10px 10px 10px 120px;
+        box-shadow: 5px 5px 10px 5px rgba($color: #000000, $alpha: .1);
+    }
+
+    &__input {
+        
+    }
+}
+
+
+
+@media (max-width: 1082px) {
+
+    h3 {
+        margin: 0 40px 20px;
+    }
+
+    .how__day-stages {
+        flex-wrap: wrap;
+    }
+    .how__day-stages-item {
+        
+        font-size: 16px;
+        width: 100%;
+        margin-left: 0px;
+} 
+
+    .how__specifically {
+        flex-wrap: wrap;
+    }
+	
+	 .how__fitness-progress-item {
+        font-size: 18px;
+        width: 47%;
+    }
+
+    .results {
+        border-radius: 0;
+    }
+
+    .results__columns {
+        flex-direction: column;
+    }
+
+    .results__image {
+        width: 100%;
+        text-align: center;
+
+        img {
+            border-radius: 0;
+        }
+    }
+    
+    .results__list {
+        width: 100%;
+        margin-left: 100px;
+    }
+
+    .results__items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .delivery {
+
+        &__columns {
+            flex-direction: column;
+        }
+    
+        &__column {
+        }
+    }
+
+    
+    .formula__items {
+        flex-wrap: wrap;
+    }
+
+    .formula__item {
+        width: 100%;
+        font-size: 18px;
+		margin-left: 0px;
+    }
+    .formula__item h3 {
+        text-align: center;
+    }
+    .formula__item img {
+        width: 100%;
+    }
+
+    .faq {
+    
+    &__question {
+        &::before {
+            display: none;
+        }
+
+        
+
+    }
+    &__answer {
+            
+    
+        &::after {
+            display: none;
+        }
+    }
+
+    }
+
+    .days-stages {
+        flex-direction: column;
+    }
+
+    .days-stages__item {
+        width: 100%;
+    }
+
+    .fitness-progress {
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .main-navigation {
+        position: absolute;
+        top: 0px;
+        padding-top: 50px;
+        width: 100%;
+        z-index: 5;
+    }
+
+    div.quote {
+        padding: 40px 40px 40px 40px;
+    
+        &::before {
+            top: 0px;
+            left: 0px;
+            width: 90px;
+            height: 90px;
+            opacity: 10%;
+    
+        }
+    }
+
+    div.warning {
+        margin: 20px 20px 20px 20px;
+        padding: 130px 20px 30px 20px;
+        
+    
+        &::before {
+            top: 5px;
+            left: 5px;
+            width: 120px;
+            height: 120px;
+    
+        }
+    }
+
+    .how__fitness-progress {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .how__fitness-progress-item {
+         width: 100%;
+         margin-bottom: 60px;
+    }
+	
+	.results__image img {
+        border-radius: 0px;
+    }
+	
+	.results__list {
+        width: 100%;
+        margin: 0 40px;
+    }
+}
+
+
+@media (max-width: 680px) {
+    
+    
+}
